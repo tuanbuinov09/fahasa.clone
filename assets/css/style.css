@@ -370,10 +370,12 @@ img{
     left: 16px;
     background-color: white;
     z-index: 1;
+    opacity: 0.6;
+    transition: opacity 0.1s ease-in-out;
 }
 .slider__button{
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     border: 1px solid lightgrey;
     background-color: rgba(253, 253, 253, 0.719);
     border-radius: 50px;
@@ -388,7 +390,16 @@ img{
     transform: translateY(-50%);
     top: 50%;
     right: 16px;
+    background-color: white;
     z-index: 1;
+    opacity: 0.6;
+    transition: opacity 0.1s ease-in-out;
+}
+.slider__next:hover{
+    opacity: 1;
+}
+.slider__prev:hover{
+    opacity: 1;
 }
 
 .home-page__banner{
