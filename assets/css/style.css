@@ -64,6 +64,9 @@ img{
     flex-direction: column;
     padding: 0 8px;
 }
+.semi{
+    margin: 0 !important;
+}
 .viewed-list{
     position: absolute;
     height: 90%;
