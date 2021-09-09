@@ -723,5 +723,5 @@ $(".home-page__swiper .slider__prev").click(function () {
     $(this).css("display", "none");
 });
 
-$('h3').text('Anh Yêu Em');
-$('.section__nav li a').text('Anh Yêu Em');
+// $('h3').text('Anh Yêu Em');
+// $('.section__nav li a').text('Anh Yêu Em');
